@@ -9,4 +9,12 @@ public class TellimuseRida {
 		this.toode = toode;
 		this.kogus = kogus;
 	}
+
+	public long getKogus() {
+		return this.kogus;
+	}
+
+	public Toode getToode() {
+		return this.toode;
+	}
 }

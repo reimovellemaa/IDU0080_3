@@ -12,4 +12,7 @@ public class Toode {
 		this.nimetus = nimetus;
 		this.hind = hind;
 	}
+	public BigDecimal getHind() {
+		return this.hind;
+	}
 }
