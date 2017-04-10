@@ -4,7 +4,7 @@ import org.apache.activemq.broker.BrokerService;
 import org.apache.log4j.Logger;
 
 /**
- * Broker - vahendaja. Brokeri k√ºlge √ºhenduvad s√µnumi saatjad ja vastuv√µtjad. 
+ * Broker - vahendaja. Brokeri kılge ¸henduvad sınumi saatjad ja vastuvıtjad. 
  * 
  * @author Allar Tammik
  * @date 08.03.2010

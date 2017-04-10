@@ -17,13 +17,13 @@ import ee.ttu.idu0080.raamatupood.server.EmbeddedBroker;
 import ee.ttu.idu0080.raamatupood.types.Car;
 
 /**
- * JMS sõnumite tootja. Ühendub brokeri url-ile
+ * JMS sõnumite tootja. �?hendub brokeri url-ile
  * 
  * @author Allar Tammik
  * @date 08.03.2010
  */
-public class Producer {
-	private static final Logger log = Logger.getLogger(Producer.class);
+public class PoodProducer {
+	private static final Logger log = Logger.getLogger(PoodProducer.class);
 	public static final String SUBJECT = "UUSJRK"; // järjekorra nimi
 
 	private String user = ActiveMQConnection.DEFAULT_USER;// brokeri jaoks vaja
@@ -36,7 +36,7 @@ public class Producer {
 	private String url = EmbeddedBroker.URL;
 
 	public static void main(String[] args) {
-		Producer producerTool = new Producer();
+		PoodProducer producerTool = new PoodProducer();
 		producerTool.run();
 	}
 
